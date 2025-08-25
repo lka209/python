@@ -1,0 +1,5 @@
+name = str(input('escreva seu nome:')).strip()
+name = name.split()
+print('prazer em te conhecer, me chamo lucas!'.format(name))
+print('seu primeiro nome e {}'.format(name[0]))
+print('seu ultimo nome e {}'.format(name[len(name) - 1]))
